@@ -1,0 +1,9 @@
+{
+    "directory_name": "letter",
+    "format":"a4paper",
+    "fromname":"Your name",
+    "fromaddress":"Your address",
+    "receipient": "",
+    "opening": "Hello",
+    "closing": "Sincerely"
+}

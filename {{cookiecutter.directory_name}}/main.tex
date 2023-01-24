@@ -1,0 +1,23 @@
+\documentclass[{{ cookiecutter.format }}]{scrlttr2}
+
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage[ngerman]{babel}
+
+\parskip=1ex
+\setmainfont{Open Sans}
+
+\setkomavar{fromname}{ {{ cookiecutter.fromname }} }
+\setkomavar{fromaddress}{ {{ cookiecutter.fromaddress }} }
+
+\begin{document}
+\begin{letter}{
+        {{ cookiecutter.receipient }}
+    }
+    \opening{ {{cookiecutter.opening}} }
+    \begin{flushleft}
+        your Text here
+    \end{flushleft}
+    \closing{ {{cookiecutter.closing}} }
+\end{letter}
+\end{document}
